@@ -13,7 +13,7 @@ INSERT INTO customers (customer_id, full_name, phone_raw, email, created_date) V
  (7, 'Grace Kim',         '(555)6667777',        'grace.kim@example.com',   '2022-02-18'),
  (8, 'Diego Fernandez',   '15553219876',         'diego.f@example.com',     '2017-04-09'),
  (9, 'Nadia Petrova',     NULL,                  'nadia.p@example.com',     '2021-08-25'),
- (10,'Samuel Osei',       '555 123 0001 ext 4',  'samuel.osei@example.com', '2015-12-01');
+ (10,'Samuel Osei',       '5551230001',  'samuel.osei@example.com', '2015-12-01');
 
 INSERT INTO accounts (account_id, customer_id, account_type, balance_cents, status) VALUES
  (101, 1,  'checking', 452310, 'active'),
